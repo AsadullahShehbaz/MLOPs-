@@ -3,7 +3,7 @@ import os
 
 # Step 1: Create sample dataset
 data = {
-    "Name": ["Ayan", "Arsal", "Abdullah", "Anas", "Ibrahim"],
+    "Name": ["Ayan Ahmed", "Muhammad Arsal", "Hafiz Muhammad Abdullah", "Muhammad Anas", "Muhammad Ibrahim"],
     "Age": [9, 9, 10, 6, 5],
     "Salary": [50000, 60000, 70000, 80000, 30000],
     "Department": ["IT", "HR", "IT", "Finance", "HR"]

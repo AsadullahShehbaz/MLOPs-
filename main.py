@@ -11,13 +11,6 @@ data = {
 
 df = pd.DataFrame(data)
 os.makedirs("data", exist_ok=True)
-df.to_csv("data/raw_data.csv", index=False)
+df.to_csv("data/dataset.csv", index=False)
 print("✅ Raw data saved to data/raw_data.csv")
 
-# Step 2: Handle missing values
-df["Age"].fillna(df["Age"].mean(), inplace=True)
-df["Salary"].fillna(df["Salary"].median(), inplace=True)
-
-# Step 3: Save processed data
-df.to_csv("data/processed_data.csv", index=False)
-print("✅ Processed data saved to data/processed_data.csv")
